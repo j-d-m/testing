@@ -1,0 +1,27 @@
+
+.grid-container {
+    display: grid;
+    grid-gap: $unit-tiny $unit-tiny;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: $unit-padding-large;
+  }
+  
+  .grid-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .grid-heading {
+    text-align: center;
+    color: $primary-color;
+    padding-top: $unit-padding;
+    font-family: $font-stack;
+    font-size: 3rem;
+  }
+  
