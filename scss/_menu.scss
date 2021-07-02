@@ -1,0 +1,30 @@
+.wrapper {
+    padding: 3em 1em;
+    background: $secondary-color;
+    columns: 100px 2;
+    column-gap: $unit-large;
+  }
+  
+  .item {
+    border-bottom: 1px dotted $accent-color-dark;
+    //   break-inside: avoid; //find out more about this
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    font-family: $font-stack;
+    margin-bottom: $unit-tiny;
+    background: $secondary-color;
+    padding: $unit-tiny;
+    color: $accent-color-dark;
+  }
+  .list-title {
+    font-family: $font-stack;
+    font-size: 30px;
+    color: $primary-color;
+    margin-bottom: $unit-large;
+  }
+  .list {
+    margin-bottom: $unit-large;
+    list-style-type: none;
+  }
